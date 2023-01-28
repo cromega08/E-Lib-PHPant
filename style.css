@@ -35,3 +35,23 @@
 	--switch-color: var(--primary-inverse);
 	--switch-checked-background-color: var(--primary);
 }
+
+/* Custom styles */
+
+.card-selected {
+	outline-style: solid;
+	outline-color: var(--primary);
+	outline-width: .15em;
+}
+
+article {
+	transition-property: outline-width, outline-color;
+	transition-duration: 100ms;
+	outline-style: solid;
+	outline-color: var(--primary-hover);
+	outline-width: 0em;
+}
+
+article:hover {
+	outline-width: .15em;
+}

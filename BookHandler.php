@@ -1,7 +1,7 @@
 <?php	
 	require_once("Book.php");
 	
-	final class FileHandler {
+	final class BookHandler {
 		private static $instance = null;
 		private $fileName;
 		private $fileStream;
@@ -56,9 +56,9 @@
 			return false;
 		}
 
-		static function getInstance(): FileHandler {
+		static function getInstance(): BookHandler {
 			self::$instance = self::$instance == null?
-				new FileHandler(): self::$instance;
+				new BookHandler(): self::$instance;
 			return self::$instance;
 		}
 

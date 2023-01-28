@@ -13,9 +13,9 @@
 
 <?php
 	require_once("Book.php");
-	require_once("FileHandler.php");
+	require_once("BookHandler.php");
 
-	$fileHandler = FileHandler::getInstance();
+	$bookHandler = BookHandler::getInstance();
 
 	if (isset($_POST["title"])) {
 		$book = new Book(
@@ -23,9 +23,9 @@
 			$_POST["author"],
 			intval($_POST["pages"])
 		);
-		$bookExist = $fileHandler->exist($book);
+		$bookExist = $bookHandler->exist($book);
 		if (!$bookExist) {
-			$fileHandler->addBook($book);
+			$bookHandler->addBook($book);
 		}
 	}
 ?>
@@ -42,7 +42,7 @@
 		</section>
 		<section>
 			<?php				
-				$books = $fileHandler->getBooks();
+				$books = $bookHandler->getBooks();
 
 				foreach($books as $key=>$value) {
 					$index = $key + 1;
@@ -51,7 +51,7 @@
 					$pages = $value->getPages();
 
 					echo
-					"<article data-index='$key'>
+					"<article data-title='$title' data-author='$author' data-pages='$pages'>
 						<header>
 							$index. $title	
 						</header>
