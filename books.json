@@ -1,0 +1,102 @@
+[
+	{
+		"title":"Harry Potter and the Sorcerer's Stone",
+		"author":"J.K. Rowling",
+		"pages":309
+	},
+	{
+		"title":"The Hunger Games",
+		"author":"Suzanne Collins",
+		"pages":384
+	},
+	{
+		"title":"Twilight",
+		"author":"Stephenie Meyer",
+		"pages":260
+	},
+	{
+		"title":"To Kill a Mockingbird",
+		"author":"Harper Lee",
+		"pages":384
+	},
+	{
+		"title":"The Great Gatsby",
+		"author":"F. Scoot Fitzgerald",
+		"pages":218
+	},
+	{
+		"title":"The Fault in Our Stars",
+		"author":"John Green",
+		"pages":313
+	},
+	{
+		"title":"1984",
+		"author":"George Orwell",
+		"pages":386
+	},
+	{
+		"title":"Pride and Prejudice",
+		"author":"Jane Austen",
+		"pages":279
+	},
+	{
+		"title":"Divergent",
+		"author":"Veronica Roth",
+		"pages":487
+	},
+	{
+		"title":"Harry Potter and the Prisoner of Azkaban",
+		"author":"J.K. Rowling",
+		"pages":435
+	},
+	{
+		"title":"The Hobbit",
+		"author":"J.R.R. Tolkien",
+		"pages":366
+	},
+	{
+		"title":"Harry Potter and the Deathly Hallows",
+		"author":"J.K. Rowling",
+		"pages":759
+	},
+	{
+		"title":"Animal Farm",
+		"author":"George Orwell",
+		"pages":141
+	},
+	{
+		"title":"The Diary of a Young Girl",
+		"author":"Anna Frank",
+		"pages":283
+	},
+	{
+		"title":"Harry Potter and the Chambers of Secrets",
+		"author":"J.K. Rowling",
+		"pages":341
+	},
+	{
+		"title":"The Catcher in the Rye",
+		"author":"J.D. Salinger",
+		"pages":277
+	},
+	{
+		"title":"Harry Potter and the Goblet of Fire",
+		"author":"J.K. Rowling",
+		"pages":734
+	},
+	{
+		"title":"Angels & Demons",
+		"author":"Dan Brown",
+		"pages":736
+	},
+	{
+		"title":"The Girl with the Dragon Tattoo",
+		"author":"Stieg Larson",
+		"pages":480
+	},
+	{
+		"title":"Catching Fire",
+		"author":"Suzanne Collins",
+		"pages":391
+	}
+]
