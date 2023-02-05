@@ -1,4 +1,4 @@
-# PHPmyCalculator
+# E-Lib-PHPant
 
 Simple library web-app implement with PHP and JS.
 
